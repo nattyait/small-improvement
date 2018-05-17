@@ -8,7 +8,7 @@ for item in os.listdir('.'):
 
 print
 print ("Type the filename again:")
-filename = input("> ")
+filename = raw_input("> ")
 
 txt = open(filename)
 
